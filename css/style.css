@@ -1,20 +1,11 @@
-.header {
+header {
     padding: 120px;
     text-align: center;
-    background-color: red;
-    background-image: linear-gradient(rgb(0, 200, 255), rgb(1, 53, 57));
-    color: white;
+    background-color: aqua;
     font-size: 30px;
   }
 
-/*
-  .wave {
-    position:relative;
-    background:linear-gradient(rgb(0, 200, 255), rgb(4, 72, 77));
-  }
-*/
-
-  h2 {color:rgb(4, 72, 77)}
+  h1 {color:rgb(4, 72, 77)}
 
   .moveright {
     text-align: right;
@@ -29,3 +20,9 @@
   .moveleft {
     text-align:left;
   }
+
+@media screen and (max-width: 480px) {
+  header{
+    background-color: rebeccapurple;
+  }
+}
