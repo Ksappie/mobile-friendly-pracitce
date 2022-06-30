@@ -21,6 +21,19 @@ header {
     text-align:left;
   }
 
+@media screen and (max-width: 1024px) {
+    header{
+      background-color:slateblue;
+    }
+  }
+ 
+ 
+  @media screen and (max-width: 720px) {
+    header{
+      background-color:darkcyan;
+    }
+  } 
+
 @media screen and (max-width: 480px) {
   header{
     background-color: rebeccapurple;
